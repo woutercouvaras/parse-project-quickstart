@@ -1,8 +1,5 @@
 # Quickstart template for a Parse Platform project
 
-[![GitHub Release][ico-release]][link-github-release]
-[![License][ico-license]](LICENSE)
-
 A base scaffolding from which to quickly start a Parse project <https://parseplatform.org/>.
 
 The scaffolding is mostly useful for getting a Parse server environment up and running with
