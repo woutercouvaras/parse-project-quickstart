@@ -18,7 +18,7 @@
         "test": "yarn workspaces run test"
     },
     "dependencies": {
-        "yarn": "1.17.3"
+        "yarn": ">=1.22.0"
     },
     "devDependencies": {
         "@types/jest": "^25.1.4",
