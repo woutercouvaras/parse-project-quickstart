@@ -1,0 +1,25 @@
+{
+    "name": "@project/model",
+    "version": "1.0.0",
+    "license": "UNLICENSED",
+    "private": true,
+    "main": "dist/models.js",
+    "types": "dist/models.d.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc -b --clean && tsc -b",
+        "lint": "eslint '{src,test}/**/*.{js,ts}'",
+        "lint:fix": "eslint --fix '{src,test}/**/*.{js,ts}'",
+        "lint:format": "prettier --write '{src,test}/**/*.{js,ts,json}'",
+        "test": "jest -t '**/*.test.{js,ts}' --passWithNoTests"
+    },
+    "dependencies": {
+        "parse": "^2.11.0"
+    },
+    "devDependencies": {
+        "@types/node": "^13.9.2",
+        "@types/parse": "^2.10.18"
+    }
+}

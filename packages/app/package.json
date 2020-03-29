@@ -1,0 +1,31 @@
+{
+    "name": "@project/app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "vue-cli-service build",
+        "develop": "vue-cli-service serve",
+        "lint": "eslint '{src,test}/**/*.{js,vue}'",
+        "lint:fix": "eslint --fix '{src,test}/**/*.{js,ts}'",
+        "lint:format": "prettier --write '{src,test}/**/*.{js,ts,json}'",
+        "e2e:test": "vue-cli-service test:e2e",
+        "test": "vue-cli-service test:unit"
+    },
+    "dependencies": {
+        "@project/model": "1.0.0",
+        "core-js": "^3.6.4",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.2.0",
+        "@vue/cli-plugin-e2e-cypress": "~4.2.0",
+        "@vue/cli-plugin-eslint": "~4.2.0",
+        "@vue/cli-plugin-unit-jest": "~4.2.0",
+        "@vue/cli-service": "~4.2.0",
+        "@vue/eslint-config-prettier": "^6.0.0",
+        "@vue/test-utils": "1.0.0-beta.31",
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-vue": "^6.1.2",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

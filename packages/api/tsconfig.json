@@ -1,0 +1,17 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "composite": false,
+        "declaration": false,
+        "declarationMap": false
+    },
+    "include": ["src/**/*", "src/**/*.json"],
+    "exclude": ["node_modules", "dist", "test"],
+    "references": [
+        {
+            "path": "../model"
+        }
+    ]
+}

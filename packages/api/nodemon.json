@@ -1,0 +1,6 @@
+{
+    "ext": "js,ts",
+    "watch": ["server.js", "src/**/*"],
+    "ignore": ["node_modules", "test"],
+    "exec": "yarn build && node server.js"
+}
