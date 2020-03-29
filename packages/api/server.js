@@ -14,7 +14,7 @@ const parseApi = new ParseServer({
     serverURL: config.parse.serverUrl,
     masterKey: config.parse.masterKey,
     appId: config.parse.appId,
-    cloud: config.parse.cloudFunctions,
+    cloud: `${__dirname}/${config.parse.cloudFunctions}`,
     fileKey: config.parse.fileKey || undefined,
     preventLoginWithUnverifiedEmail: false,
     verifyUserEmails: false

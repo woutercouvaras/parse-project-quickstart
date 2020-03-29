@@ -35,9 +35,9 @@ const config = convict({
             env: "PARSE_SERVER_FILE_KEY"
         },
         cloudFunctions: {
-            doc: "Path to the location of Parse cloud functions",
+            doc: "Relative path to the location of Parse cloud functions",
             format: String,
-            default: "",
+            default: "packages/api/dist/cloud.js",
             env: "PARSE_SERVER_CLOUD"
         },
         dbUri: {

@@ -4,6 +4,8 @@ dist
 .idea
 .vscode
 
+tsconfig.tsbuildinfo
+
 logs
 *.log
 npm-debug.log*
