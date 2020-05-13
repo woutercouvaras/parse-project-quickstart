@@ -22,6 +22,10 @@ MOAR TODO
 
 TODO
 
+One quick note: In your `packages/app/src/App.vue` file, you'll notice the following line
+`Parse.initialize("projectid");`
+This value needs to be the value set for `PARSE_SERVER_APPLICATION_ID` in your `packages/api/.env` file.
+
 ## Usage - Parse Models
 
 TODO

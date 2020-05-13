@@ -11,7 +11,7 @@ import { ParseModels } from "@project/model";
 import HelloWorld from "./components/HelloWorld.vue";
 
 ParseModels.map(m => Parse.Object.registerSubclass(m.subclassName, m.class));
-Parse.initialize("Project");
+Parse.initialize("projectid");
 Parse.serverURL = "http://localhost:4000/parse";
 
 export default {

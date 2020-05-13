@@ -9,8 +9,10 @@ import Parse from "parse";
 
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String
+  data: () => {
+    return {
+      msg: "Hello!  Looking for Cloud..."
+    };
   },
   async created() {
     try {
